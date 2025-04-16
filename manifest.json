@@ -1,0 +1,29 @@
+{
+  "id": "org.stremio.superflix",
+  "version": "1.0.0",
+  "name": "Superflix",
+  "description": "Addon para Stremio com filmes, séries, animes e desenhos dublados em PT-BR.",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/512px-Placeholder_view_vector.svg.png",
+  "background": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png",
+  "types": ["movie", "series", "anime"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "superflix_movies",
+      "name": "Filmes Superflix",
+      "extra": [{ "name": "search" }, { "name": "genre" }]
+    },
+    {
+      "type": "series",
+      "id": "superflix_series",
+      "name": "Séries Superflix",
+      "extra": [{ "name": "search" }, { "name": "genre" }]
+    },
+    {
+      "type": "anime",
+      "id": "superflix_animes",
+      "name": "Animes Superflix",
+      "extra": [{ "name": "search" }, { "name": "genre" }]
+    }
+  ]
+        }
